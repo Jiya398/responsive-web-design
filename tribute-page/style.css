@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.main {
+    background-color: #eee;
+    display: block;
+}
+#title {
+    font-size: 3.0rem;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: bold;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-top: 20px;
+}
+.parag-title {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    font-size: 1.0rem;
+}
+
+#img-div {
+    padding: 10px;
+    background: white;
+    margin: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+#image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+#img-caption {
+    margin: 15px 0 5px 0;
+    display: block;
+    text-align: center;
+}
+
+#tribute-info {
+    display: block;
+}
+
+.parag-info {
+    margin: 50px 0;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-top: 25px;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    padding-top: 25px;
+    line-height: 1.6;
+}
+
+li {
+    display: list-items;
+    margin: 16px 2px;
+    
+}
+
+.parag-life {
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    font-style: italic;
+    line-height: 1.7;
+}
+cite {
+    text-align: center;
+}
+
+.parag-last {
+    display: block;
+    font-size: 1.34em;
+    max-width: 950px;
+    margin: 15px auto 50px 250px;
+}
+
+
+@media (max-width: 460px) {
+    #title {
+        line-height: 1.2;
+        font-size: 1.9rem;
+    }
+    .parag-title {
+        font-size: 0.8rem;
+        
+    }
+    .parag-info {
+        font-size: 1.0rem;
+    }
+    li {
+        font-size: 0.9rem;
+        margin: 0 30px 10px 50px;
+    }
+    .parag-life {
+        margin: 15px 20px 30px 40px;
+    } 
+    .parag-last {
+        margin: 15px 20px 30px 50px;
+        font-size: 1.0em;
+    }
+}
